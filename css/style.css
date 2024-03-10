@@ -1,0 +1,18 @@
+p#greycol {
+    color: gray;
+}
+
+.yellow {
+    color: yellow;
+}
+.text-box > h3:first-child {
+    color: pink;
+}
+
+.text-box > div > p:first-child {
+    color: red;
+}
+
+.text-box > p:nth-child(7) {
+    color: green;
+}

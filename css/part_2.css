@@ -1,0 +1,12 @@
+tr:nth-child(odd):hover {
+   color: darkorange;
+}
+
+tr:nth-child(ever):hover {
+    color: darkblue;
+}
+
+table{
+    font-size: 40px;
+    margin: 0 auto;
+}
