@@ -16,3 +16,50 @@ p#greycol {
 .text-box > p:nth-child(7) {
     color: green;
 }
+
+
+.day:hover{
+border-width: 40px;
+border-radius: 20%;
+background-color: black;
+color: rgb(255, 166, 0);
+}
+
+table:focus {
+background-color: aqua;
+}
+
+a:visited {
+    background-color: black;
+    color: greenyellow;
+}
+a:link {
+    color: white;
+}
+
+tbody:not(:last-child) {
+background-color: black;
+color: white;
+}
+
+tbody>tr:nth-child(even){
+    background-color: gold;
+    color: black;
+}
+
+tbody>tr:nth-child(odd) {
+    background-color:  black;
+    color: gold;
+}
+
+.Kahoot {
+    cursor: pointer;
+}
+
+table:only-child {
+    color: brown;
+}
+
+tbody:empty {
+    color: chartreuse;
+}
